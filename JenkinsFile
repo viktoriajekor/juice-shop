@@ -20,7 +20,7 @@ pipeline {
                 git url: "${gitProject}"
             }
         }
-        stage (run tests) {
+        stage ('run tests') {
             steps {
                 echo 'npm run test'
             }
