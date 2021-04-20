@@ -3,7 +3,7 @@ pipeline {
         registry = "vicky228"
         imageName = 'testapp'
         registryCred = 'dockerhub_id'
-        gitProject = "https://github.com/pannoi/juice-shop.git"
+        gitProject = "https://github.com/viktoriajekor/juice-shop.git"
     }
     agent any
     options {
