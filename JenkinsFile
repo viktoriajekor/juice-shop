@@ -1,7 +1,4 @@
 pipeline {
-    parameters {
-        string{deafultValue: "0.0.1", description: "application Version", name: "version"}
-    }
     environment {
         registry = "vicky228"
         imageName = 'testapp'
