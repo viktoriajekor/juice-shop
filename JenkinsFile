@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = "vicky228"
         imageName = 'testapp'
-        registryCred = '1'
+        registryCred = 'dockerhub_id'
         gitProject = "https://github.com/viktoriajekor/juice-shop.git"
     }
     agent any
